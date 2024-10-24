@@ -5,7 +5,6 @@
 #define MAX_SIGNATURES 100
 #define MAX_SIGNATURE_LENGTH 256
 
-// Function to read signatures from a file
 int load_signatures(const char *filename, char signatures[][MAX_SIGNATURE_LENGTH]) {
     FILE *file = fopen(filename, "r");
     if (!file) {

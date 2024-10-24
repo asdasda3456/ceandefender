@@ -1,1 +1,2 @@
+This is a dangerous file that contains:
 virus_1
